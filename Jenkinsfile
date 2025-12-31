@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git url: 'https://github.com/adhiganesh313/assessment.git', branch: 'main'
+                git url: 'https://github.com/Balajir18/jenkins-aws.git', branch: 'main'
             }
         }
 
